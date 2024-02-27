@@ -1,2 +1,1 @@
-# CampusUnite.github.io
-College website for events and clubs.
+https://souptiksarkar893.github.io/CampusUnite.github.io/
