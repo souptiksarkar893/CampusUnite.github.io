@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Club</title>
+    <link rel="icon" href="./3672869_college_education_graduate_student_university_icon.svg" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom styles go here */
+        body {
+            background-color: #f7f7f7;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1523286680734-c387ced73af5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .hero h1 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .gallery {
+            background-color: #fff;
+            padding: 50px 0;
+        }
+        .gallery h2 {
+            text-align: center;
+        }
+        .gallery-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery-image {
+            margin: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .gallery-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .events {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .events h2 {
+            font-weight: bold;
+        }
+        .event {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1>Welcome to the Photography Club</h1>
+        <p>Capturing Moments, Creating Memories</p>
+        <a href="registration.html" class="btn btn-primary">Join Us</a>
+    </div>
+</section>
+
+<!-- Featured Gallery Section -->
+<section class="gallery">
+    <div class="container">
+        <h2>Featured Gallery</h2>
+        <div class="gallery-images">
+            <!-- You can add your gallery images here -->
+            <div class="gallery-image">
+                <img src="https://images.unsplash.com/photo-1554080353-321e452ccf19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Gallery Image 1">
+            </div>
+            <div class="gallery-image">
+                <img src="https://images.unsplash.com/photo-1500051638674-ff996a0ec29e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1836&q=80" alt="Gallery Image 2">
+            </div>
+            <div class="gallery-image">
+                <img src="https://plus.unsplash.com/premium_photo-1686917087284-0390ffe37fc8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Gallery Image 3">
+            </div>
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Upcoming Events Section -->
+<section class="events">
+    <div class="container">
+        <h2>Upcoming Events</h2>
+        <div class="row">
+            <!-- Event 1 -->
+            <div class="col-md-6">
+                <div class="event">
+                    <h3>Photography Workshop</h3>
+                    <p>Date: October 15, 2023</p>
+                    <p>Location: Community Center</p>
+                </div>
+            </div>
+            <!-- Event 2 -->
+            <div class="col-md-6">
+                <div class="event">
+                    <h3>Photography Exhibition</h3>
+                    <p>Date: November 5, 2023</p>
+                    <p>Location: Art Gallery</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Bootstrap JS and jQuery (place at the end of the body for faster page loading) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

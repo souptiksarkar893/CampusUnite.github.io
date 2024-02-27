@@ -1,0 +1,56 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.event {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.event:hover {
+    transform: translateY(-5px); /* Slight vertical lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger box shadow on hover */
+}
+
+.event a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.event a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for the event heading */
+.event h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Style for event details (date, time, location) */
+.event p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Style for registration link */
+.event a.btn-primary {
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for delete button */
+.event button.btn-danger {
+    margin-top: 10px; /* Add space between registration link and delete button */
+}

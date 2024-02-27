@@ -1,0 +1,138 @@
+.notices-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.notice {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.notice h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.notice p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.testimonials {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+}
+
+.testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+}
+
+.testimonial h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/* Add your custom CSS styles for the HOD and Coordinator section here */
+.hod-coordinator {
+    background-color: #e8e8e8;
+    padding: 30px 0;
+}
+
+.hod-coordinator .container {
+    text-align: center;
+}
+
+.carousel-item img {
+    margin:10px;
+  }
+  .block4-wrap {
+    display:flex
+  }
+  .block4 {
+    flex:1 0 25%;
+  }
+  .my-captions{margin:10px;padding-bottom:3em}
+  
+  
+  /* fix width and make user scroll with mouse/touch to see the items */
+  @media screen and (max-width:768px){
+    .block4{max-width:280px;flex:1 0 100%;overflow:hidden}  
+    .carousel{overflow:hidden;}
+    .carousel-inner{overflow-x:visible;}
+  }
+  @media screen and (max-width:480px){
+    .block4{max-width:240px;} 
+  }
+  
+  .carousel-indicators .active {
+    background-color: red; /* Replace "red" with your desired active color */
+  }
+  
+  .carousel-indicators li:not(.active) {
+    background-color: lightpink /* Replace "blue" with your desired inactive color */
+  }
+  
+  
+  .block4 {
+    width: 100%; /* Set to 100% to take up full width within the carousel */
+    margin: 0 auto; /* Center the card within the carousel */
+  }
+  
+  .block4 img {
+    transition: transform 0.3s ease; /* Rounded corners for the image border */
+  }
+  
+  .block4:hover img {
+    transform: scale(1.1); /* Add a slight zoom effect on hover */
+  }
+  
+  .my-captions {
+    text-align:left /* Center the captions within each card */
+  }
+  
+  .block4:hover .carousel-caption {
+    opacity: 1; /* Show the captions on hover */
+  }
+
+/* styles.css */
+
+.social-icons {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  z-index: 1000; /* Ensure icons appear above other content */
+  display: flex;
+  flex-direction: column; /* Display icons vertically */
+}
+
+.icon {
+  width: 30px; /* Reduce the width and height to make icons smaller */
+  height: 30px;
+  background-color: #57375D; /* Background color for icons */
+  color: #fff; /* Icon color */
+  text-align: center;
+  line-height: 30px; /* Center the icon vertically */
+  margin: 10px; /* Adjust the spacing between icons as needed */
+  border-radius: 50%; /* Make the icons circular */
+  font-size: 14px; /* Reduce the icon size */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.icon:hover {
+  background-color: #4267B2; /* Change background color on hover */
+}
+
+
